@@ -64,7 +64,18 @@ body{
     font-size: 20px;
 }
 
+.formtype-layout{
+    padding-top: 40px;
+}
+
 .footer-style{
     background-color: #17a3b8;
-    height: 80px;
+    height: 40px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.footer-style a{
+    text-decoration: none;
+    color: white;
 }

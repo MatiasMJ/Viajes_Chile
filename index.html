@@ -12,12 +12,13 @@
 </head>
 <body>
 <header>
+
 <!--nav-->
-    <nav class="navbar navbar-expand-lg px-4 navbar-transparent fixed-top text-white">
+    <nav class="navbar navbar-expand-lg px-4 r bg-dark-opacity-25 fixed-top text-white shadow-sm p-3 mb-5">
         <div class="container-fluid py-2">
             <img src="assets/img/viajes.svg" alt="logo viajes chile">
-            <a class="navbar-brand ms-2 nav-brand" href="#">Viajes Chile</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand ms-2 " href="#">Viajes Chile</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -66,11 +67,10 @@
 </header>  
 <!--Quienes somos-->
 
-<article class="container">
-    <div class="row col-12">
+<article class="container d-none d-md-block">
+    <div class="row col-12 separation">
         <h2 class="wr-title tex-align-center text-white">¿Quiénes somos?</h2>
     </div>
-    <div class="row separation"></div>
     
     <div class="container article-separation text-white">
         <div class="row">
@@ -100,11 +100,9 @@
 <!--Destacados-->
 
 <article class="container">
-    <div class="row col-12">
+    <div class="row col-12 separation">
         <h2 class="wr-title tex-align-center text-white">Destacados?</h2>
-    </div>
-    <div class="row separation"></div>
-    
+    </div>    
 
     
     <div class="container text-white">
@@ -146,23 +144,30 @@
 
 <!--Contacto-->
 
-<article class="container">
-    <div class="row col-12">
-        <h2 class="wr-title tex-align-center text-white">Destacados?</h2>
+<section class="container">
+    <div class="row col-12 separation">
+        <h2 class="wr-title tex-align-center text-white">Contacto</h2>
     </div>
-    <div class="row separation"></div>
 
-</article>
+    <div class="row formtype-layout">
+        <div data-tf-widget="XfwUILED" data-tf-iframe-props="title=Viajes Chile" style="width:100%;height:400px;">
+        </div><script src="//embed.typeform.com/next/embed.js"></script>
+    </div>
+
+</section>
 
 <!--footer-->
 <footer>
-    <div class="container-fluid footer-style">
-      <div class="row justify-content">
+    <div class="container-fluid footer-style text-white">
+      <div class="row justify-content ">
         <div class="col-6">
             <a href="">Viajes chile</a>
         </div>
         <div class="col-6">
-            <a href="">Viajes chile</a>
+            <i class="fab fa-github-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-facebook-square"></i>
         </div>
       </div>
     </div>
