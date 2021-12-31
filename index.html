@@ -1,190 +1,315 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/f73e1a5c93.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f73e1a5c93.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Viajes Chile</title>
-</head>
-<body>
-<header>
-
-<!--nav-->
-    <nav class="navbar navbar-expand-lg px-4 bg-dark-opacity-25 fixed-top text-white shadow-sm p-3 mb-5">
+  </head>
+  <body>
+    <header>
+      <!--nav-->
+      <nav
+        class="
+          navbar navbar-expand-lg
+          px-4
+          bg-dark-opacity-25
+          fixed-top
+          text-white
+          shadow-sm
+          p-3
+          mb-5
+        "
+      >
         <div class="container-fluid py-2">
-            <img src="assets/img/viajes.svg" alt="logo viajes chile">
-            <a class="navbar-brand ms-2" href="#">Viajes Chile</a>
-            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#quienes-somos">Quienes somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#destacados">Destacados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                </li>
-                </ul>
-            </div>
+          <img src="assets/img/viajes.svg" alt="logo viajes chile" />
+          <a class="navbar-brand ms-2" href="#">Viajes Chile</a>
+          <button
+            class="navbar-toggler navbar-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quienes-somos">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
-<!--Hero-->
+      <!--Hero-->
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/img/carousel1.jpg" class="d-block" alt="...">
+          <div class="carousel-item active">
+            <img src="assets/img/carousel1.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" class="d-block" alt="..." />
+          </div>
         </div>
-        <div class="carousel-item">
-            <img src="assets/img/carousel2.jpg" class="d-block" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="assets/img/carousel3.jpg" class="d-block" alt="...">
-        </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
-    </div>
+      </div>
+    </header>
+    <!--Quienes somos-->
 
-</header>  
-<!--Quienes somos-->
+    <article class="container d-none d-md-block">
+      <div class="row col-12 separation">
+        <h2 id="quienes-somos" class="wr-title tex-align-center text-white">
+          ¿Quiénes somos?
+        </h2>
+      </div>
 
-<article class="container d-none d-md-block">
-    <div class="row col-12 separation">
-        <h2 id="quienes-somos" class="wr-title tex-align-center text-white">¿Quiénes somos?</h2>
-    </div>
-    
-   
-    <div class="container article-separation text-white">
+      <div class="container article-separation text-white">
         <div class="row">
-            <div class="col-12 col-lg-4">
-                <div class="icon-layout"><i class="fa fa-plane"></i></div>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, suscipit lobortis nisl ut aliquip ex ea commodo consequat. vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                </p>
-            </div>
-            <div class="col-12 col-lg-4">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, suscipit lobortis nisl ut aliquip ex ea commodo consequat. vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                </p>
-                <div class="icon-layout"><i class="fas fa-mountain"></i></div>
-            </div>
-            <div class="col-12 col-lg-4">
-                <div class="icon-layout"><i class="fas fa-route"></i></div>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, suscipit lobortis nisl ut aliquip ex ea commodo consequat. vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                </p>
-            </div>
-        </div>
-    </div>
-</article>
-
-    
-    
-    
-    
-    
-    <!--Destacados-->
-    
-    <article class="container">
-        <div class="row col-12 separation">
-            <h2 id="destacados" class="wr-title tex-align-center text-white">Destacados</h2>
-        </div>    
-        
-        
-        
-       
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-3 card-layout">
-                  <div class="card card_margin">
-                    <img src="assets/img/card1.jpg" class="card-img-top card-img" alt="...">
-                    <div class="card-body card-style text-white">
-                        <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                    </div>
-                 </div>
-                </div>
-                
-                <div class="col-12 col-lg-3 card-layout">
-                  <div class="card card_margin">
-                    <img src="assets/img/card2.jpg" class="card-img-top card-img" alt="...">
-                    <div class="card-body card-style text-white">
-                        <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-12 col-lg-3 card-layout">
-                  <div class="card card_margin">
-                    <img src="assets/img/card3.jpg" class="card-img-top card-img" alt="...">
-                    <div class="card-body card-style text-white">
-                        <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-12 col-lg-3 card-layout">
-                    <div class="card card_margin">
-                        <img src="assets/img/card4.jpg" class="card-img-top card-img" alt="...">
-                      <div class="card-body card-style text-white">
-                        <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-        
-</article>
-
-<!--Contacto-->
-
-<section class="container">
-    <div class="row col-12 separation">
-        <h2 id="contacto" class="wr-title tex-align-center text-white">Contacto</h2>
-    </div>
-
-    <div class="row formtype-layout">
-        <div data-tf-widget="XfwUILED" data-tf-iframe-props="title=Viajes Chile">
-        </div><script src="//embed.typeform.com/next/embed.js"></script>
-    </div>
-
-</section>
-
-<!--footer-->
-<footer class="footer-style container-fluid">
-    <div>
-      <div class="row text-white icon-footer">
-        <div class="col-6 text-center">
-            <a href="">Viajes chile</a>
-        </div>
-        <div class="col-6 text-center icon-footer">
-            <a href="https://github.com/MatiasMJ" target="_blank"><i class="fab fa-github-square"></i></a>
-            <a href="https://www.linkedin.com/in/matias-mesa-829b751bb/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <div class="col-12 col-lg-4">
+            <div class="icon-layout"><i class="fa fa-plane"></i></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat. Duis autem vel eum iriure dolor in hendrerit in
+              vulputate velit esse molestie consequat, suscipit lobortis nisl ut
+              aliquip ex ea commodo consequat. vel illum dolore eu feugiat nulla
+              facilisis at vero eros et accumsan et iusto odio dignissim qui
+              blandit praesent luptatum zzril delenit augue duis dolore te
+              feugait nulla facilisi.
+            </p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat. Duis autem vel eum iriure dolor in hendrerit in
+              vulputate velit esse molestie consequat, suscipit lobortis nisl ut
+              aliquip ex ea commodo consequat. vel illum dolore eu feugiat nulla
+              facilisis at vero eros et accumsan et iusto odio dignissim qui
+              blandit praesent luptatum zzril delenit augue duis dolore te
+              feugait nulla facilisi.
+            </p>
+            <div class="icon-layout"><i class="fas fa-mountain"></i></div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="icon-layout"><i class="fas fa-route"></i></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat. Duis autem vel eum iriure dolor in hendrerit in
+              vulputate velit esse molestie consequat, suscipit lobortis nisl ut
+              aliquip ex ea commodo consequat. vel illum dolore eu feugiat nulla
+              facilisis at vero eros et accumsan et iusto odio dignissim qui
+              blandit praesent luptatum zzril delenit augue duis dolore te
+              feugait nulla facilisi.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <script src="path/to/smooth-scroll.polyfills.min.js"></script>  
-</body>
+    </article>
+
+    <!--Destacados-->
+
+    <article class="container">
+      <div class="row col-12 separation">
+        <h2 id="destacados" class="wr-title tex-align-center text-white">
+          Destacados
+        </h2>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3 card-layout">
+            <div id="card-alert1" class="card card_margin">
+              <img
+                src="assets/img/card1.jpg"
+                class="card-img-top card-img"
+                alt="lago y montañas"
+              />
+              <div class="card-body card-style text-white">
+                <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 card-layout">
+            <div id="card-alert2" class="card card_margin">
+              <img
+                src="assets/img/card2.jpg"
+                class="card-img-top card-img"
+                alt="lago altiplanico"
+              />
+              <div class="card-body card-style text-white">
+                <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 card-layout">
+            <div id="card-alert3" class="card card_margin">
+              <img
+                src="assets/img/card3.jpg"
+                class="card-img-top card-img"
+                alt="salar"
+              />
+              <div class="card-body card-style text-white">
+                <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 card-layout">
+            <div class="card card_margin">
+              <img
+                src="assets/img/card4.jpg"
+                class="card-img-top card-img"
+                alt="bosque"
+              />
+              <div class="card-body card-style text-white">
+                <h2 class="card-title">Lorem ipsum dolor sit amet</h2>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--Contacto-->
+
+    <section class="container">
+      <div class="row col-12 separation">
+        <h2 id="contacto" class="wr-title tex-align-center text-white">
+          Contacto
+        </h2>
+      </div>
+
+      <div class="row formtype-layout">
+        <div
+          data-tf-widget="XfwUILED"
+          data-tf-iframe-props="title=Viajes Chile"
+        ></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer-style container-fluid">
+      <div>
+        <div class="row text-white icon-footer">
+          <div class="col-6 text-center">
+            <a href="">Viajes chile</a>
+          </div>
+          <div class="col-6 text-center icon-footer" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="visitanos 💙">
+            <a href="https://github.com/MatiasMJ" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/matias-mesa-829b751bb/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+            <a href="https://facebook.com/" target="_blank"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/index.js"></script>
+  </body>
 </html>
