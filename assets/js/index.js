@@ -49,4 +49,17 @@ AlertaDatos3.addEventListener('click', function(){
 })
 
 
-  
+const AlertaDatos4 = document.getElementById('card-alert4');
+
+AlertaDatos4.addEventListener('click', function(){
+    Swal.fire({
+        title: '¡Ven y conoceme!',
+        text: 'pasa por la sección de contacto y te entregaremos los mejores datos para el viaje',
+        imageUrl: 'assets/img/card4.jpg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'card4',
+        confirmButtonColor: '#17a3b8',
+      })   
+    
+})
